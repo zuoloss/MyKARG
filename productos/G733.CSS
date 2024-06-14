@@ -80,6 +80,12 @@ nav li{
     width: 100%;
 }
 
+.card a:hover{
+    border: rebeccapurple solid 5px;
+    background-color: rebeccapurple;
+    font-size: 15px;
+}
+
 
 
 

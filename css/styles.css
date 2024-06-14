@@ -71,18 +71,19 @@ nav li{
     margin: 0 auto;
     padding: 25px;
     height: 500px;
-    width: 500px;
+    max-width: 500px;
 }
 
 .card img{
     width: 100%;
+    object-fit:contain ;
 }
 
 .card2{
   margin: 0 auto;
   padding: 25px;
   height: 500px;
-  width: 500px;
+  max-width: 500px;
 }
 
 .card2 img{
@@ -107,6 +108,7 @@ nav li{
     max-width: 10000px; /*no entiendo el max width*/
 }
 
+/*
 .parent {
   margin: 0 auto;
   display: grid;
@@ -138,6 +140,8 @@ nav li{
   
   .div6 { grid-area: 3 / 2 / 4 / 3; }
 
+  */
+
 
 
   footer{
@@ -149,7 +153,8 @@ nav li{
    display: flex;
    flex-direction: column;
    justify-content: space-evenly ;
-  }
+  } 
+
 
   @media screen and (max-width:1030px) {
     .padre{
@@ -176,16 +181,85 @@ nav li{
     
   
   }
-/*
+
   @media screen and (max-width:520px) {
-    .header{
-
+    header{
+      display: flex;
+      flex-direction: column;
     }
 
-    .footer{
+   
+  }
 
-    }
-  }*/
+  .contenedor_limite{
+
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .padre_t{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  
+    
+    
+  }
+  
+  .div1{
+    max-width: 400px;
+  }
+  
+  
+  .div1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  .div2{
+    max-width: 400px;
+  }
+  .div3{
+    max-width: 400px;
+  }
+  
+  
+  .div3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  
+  .div4{
+    max-width: 400px;
+  }
+  
+  .div5{
+    max-width: 400px;
+  }
+  .div5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .div6{
+    max-width: 500px;
+   
+  
+  }
+  
+  
+  li{
+    list-style: none;
+  }
 
 
   

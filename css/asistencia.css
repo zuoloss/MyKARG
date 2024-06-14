@@ -49,6 +49,9 @@ nav li{
     align-items:center;
    
   }
+  section{
+    margin: 50px ;
+  }
 
   .padre{
     display: flex;
@@ -60,8 +63,7 @@ nav li{
 .card{
     margin: 0 auto;
     padding: 25px;
-    height: 150px;
-    width: 700px;
+    max-width: 700px;
     background-color: #1f1f1f;
     border-radius: 20px;
 }
@@ -82,9 +84,9 @@ nav li{
 }
 
 .contenedor{
-    margin: 0 auto;
+    margin: 100px auto;
     padding: 25px;
-    max-width: 10000px; /*no entiendo el max width*/
+    max-width: 1000px; 
 }
 
   footer h3{
@@ -92,5 +94,11 @@ nav li{
 }
 footer{
     background-color: #282134;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 60px;
+    z-index: 2;
   }
 
